@@ -13,4 +13,5 @@ function whileLoop(passedNumber){
   while(passedNumber > 0){
     console.log(--passedNumber)
   }
+  return `done`
 }
