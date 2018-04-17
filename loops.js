@@ -15,3 +15,9 @@ function whileLoop(passedNumber){
   }
   return `done`
 }
+function doWhileLloop(array){
+  do {
+    array.shift()
+  } while (array.length >0 && maybeTrue())
+  return array
+}
